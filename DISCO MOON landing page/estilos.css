@@ -1,0 +1,119 @@
+body{ 
+	margin: -20px;
+	padding: 0;
+	/*fondo*/
+	background-image: linear-gradient(to bottom, #14010C, #BD0D7B);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#banner{
+	background-image: url(img/header6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 50px 0;
+	width: 100%;
+	height:250px;
+}
+#banner h1{
+	font-size: 5em;
+	font-family: 'Grenze Gotisch', cursive;
+	text-shadow: 3px 2px 2px black;
+	color: white;
+}
+#banner h2{
+	font-family: segoe script;	
+	text-align: center;
+}
+.separator{
+	height: 40px;
+}
+h2{
+	color: white;
+	text-align: left;
+	margin: 40px;
+	font-size: 2em;
+}
+#container > div{
+	background-color: transparent;
+	display: flex;
+}
+#container >div >div{
+	display: block;
+	width: 200px;
+	height: 400px;
+	background: #0D0108;
+	border-radius: 10px;
+}
+#space-araund{
+	justify-content: space-around;
+}
+#space-araund img{
+	width: 100%;
+	height: 40%;
+	background-size: cover;
+	border-radius: 10px;
+}
+#space-araund p{
+	text-align: center;
+	color: white;
+	margin: 20px;
+	margin-top:40px;
+	margin-bottom: 10px;
+}
+#space-araund .fechas{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	border:solid ;
+	border-radius: 5px;
+}
+.separator2{
+	margin: 70px;
+}
+#banner2{
+	background-image: url(img/fondotrago7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height:250px;
+	text-align: center;
+}
+#banner2 p{
+	color: white;
+	font-family: segoe script;
+	text-align: center;
+	font-size: 2em;
+	padding: 50px 0;
+	margin: 40px;
+}
+footer{
+	color: white;
+	background-color: transparent;
+	padding: 5px;
+	text-align: center;
+}
+.social{
+	left: 0;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li a{
+	display: inline-block;
+	color: white;
+   background: transparent;
+   text-decoration: none;
+   font-size: 2em;
+}
+
+
+
+
+
